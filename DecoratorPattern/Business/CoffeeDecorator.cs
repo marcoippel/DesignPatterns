@@ -1,11 +1,10 @@
-﻿using DecoratorPattern.Business;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DecoratorPattern.Decorators
+namespace DecoratorPattern.Business
 {
     public abstract class CoffeeDecorator : ICoffee
     {
